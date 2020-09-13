@@ -1,0 +1,39 @@
+create a project in maven
+https://maven.apache.org/surefire/maven-surefire-plugin/dependency-info.html
+https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html
+
+how to install git in local machine
+
+1.https://git-scm.com/download/win
+2.select all default and click on next xext and install
+install maven
+
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+Maven installation
+1 https://maven.apache.org/download.cgi
+2 download Binary zip archive from link column
+3 copy file to c:\programfiles and extract the zip folder 
+4 then set environment variables
+5 open cmd prompt
+6 type mvn -version
+
+how to set path for jdk and maven in jenkins
+1.click on Manage Jenkins ....select Global Tool Configuration
+
+2.click add jdk 
+
+
+
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.3.0</version>
+    <scope>compile</scope>
+</dependency>
